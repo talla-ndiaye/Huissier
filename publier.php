@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -58,6 +59,16 @@
         }
     </style>
 </head>
+<script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Vérifie l'heure locale
+            const currentHour = new Date().getHours();
+            if (currentHour !== 20) {
+                // Redirige vers ok.php si l'heure n'est pas 20h
+                window.location.href = 'verification.php';
+            }
+        });
+    </script>
 <body class="light-theme dark-theme">
     <header>
         <div class="container-fluid">
