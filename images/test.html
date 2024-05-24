@@ -1,0 +1,68 @@
+<section>
+	<article>
+		<nav>
+			
+			<!-- END: Links Container -->
+
+			<!-- START: Dropdown Container avatar version -->
+			<div class="dropdown-container">
+				<details class="dropdown right">
+					<summary class="avatar">
+						<img src="https://gravatar.com/avatar/00000000000000000000000000000000?d=mp">
+					</summary>
+					<ul>
+						<!-- Optional: user details area w/ gray bg -->
+						<li>
+							<p>
+								<span class="block bold">Jane Doe</span>
+								<span class="block italic">jane@example.com</span>
+							</p>
+						</li>
+						<!-- Menu links -->
+						<li>
+							<a href="#">
+								<span class="material-symbols-outlined">account_circle</span> Account
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="material-symbols-outlined">settings</span> Settings
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="material-symbols-outlined">help</span> Help
+							</a>
+						</li>
+						<!-- Optional divider -->
+						<li class="divider"></li>
+						<li>
+							<a href="#">
+								<span class="material-symbols-outlined">logout</span> Logout
+							</a>
+						</li>
+					</ul>
+				</details>
+			</div>
+			<!-- END: Dropdown Container -->
+		</nav>
+	</article>
+</section>
+
+<!-- CREDITS -->
+<section>
+	<blockquote>
+		<p>
+			Inspired by
+			<a href="https://codepen.io/garetmckinley/pen/XvgzKQ" target="_blank">
+				Pure CSS Dropdown Menu (No JavaScript)
+			</a> by
+			<a href="https://codepen.io/garetmckinley" target="_blank">
+				Garet McKinley
+			</a>
+		</p>
+		<p><span class="bold">Note:</span> The original solution for closing the dropdown from the linked codepen is not used here since it prevents clicks getting through to the intended elements underneath the <code>:before</code> summary psuedo element that covers the page when a dropdown is open.
+		</p>
+		<p> Instead there is javascript to close the dropdown when clicking anywhere else but an element that is a direct child of the summary element.</p>
+	</blockquote>
+</section>

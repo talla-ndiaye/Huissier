@@ -291,3 +291,18 @@ input:checked + .slider:before {-webkit-transform: translateX(26px);-ms-transfor
     .trending-desc .bid h5{margin-bottom: 4px;}
     .trending-desc .bid span{font-size: 16px; line-height: 24px;}
 }
+
+
+
+
+
+
+/*le dropdown du profil*/
+
+.dropdown-menu-right {
+            right: 0;
+            left: auto;
+        }
+        .avatar img {
+            cursor: pointer;
+        }

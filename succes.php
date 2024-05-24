@@ -17,8 +17,7 @@
         }
 
         .message {
-           /* background-color: #4CAF50;*/
-            background-color: #F08080;
+           background-color: #4CAF50;
             color: white;
             text-align: center;
             padding: 20px;
@@ -33,7 +32,7 @@
         <p>VOUS NE POUVEZ PAS ACCEDER A CETTE PAGE POUR LE MOMENT</p>
 
 
-        <p>Vous allez être redirigé vers la page d'accueil dans 5 secondes.</p>
+        <p>Vous allez être redirigé vers la page d'accueil dans 3 secondes.</p>
     </div>
 </body>
 </html>
